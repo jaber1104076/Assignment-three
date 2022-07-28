@@ -7,6 +7,7 @@
     <title>Education Enhancement</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -186,12 +187,191 @@
                 </div>
 
             </div>
+            <div class="text-center mt-3">
+                <button class="btn btn-primary btn-lg p-2">See more courses</button>
+            </div>
         </section>
         <!-- courses section end  -->
+        <!-- Exploring section start -->
+        <section class="container mt-5">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <div class="w-100">
+                            <img src="images/working.png" class="img-fluid w-100 rounded-start" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Explore The elearning
+                                <br> Institute
+                            </h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour, or
+                                randomised words which don't look even slightly believable. If you are going
+                                to use a passage of Lorem Ipsum, you need to be sure.
+
+
+                                Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                generators on the Internet tend to repeat predefined.</p>
+                            <div class="d-flex justify-content-around">
+                                <div class="d-flex flex-column">
+                                    <h1>3.2k +</h1>
+                                    <p>Online Course</p>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h1>600 +</h1>
+                                    <p>Expart Member</p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <button class="btn btn-primary btn-lg">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Exploring section end -->
+        <!-- modal section started -->
+        <section>
+            <div class="container mt-5 bg-primary rounded-1 p-4">
+                <div class="row gx-5 d-flex justify-content-even align-items-center">
+                    <div class="col-md-12 col-sm-12 col-lg-6 ">
+                        <div class="">
+                            <h1 class="mb-3 ms-5 text-white">Ready to join?</h1>
+                            <p class="mb-3 ms-5 text-white">It is a long established fact that a reader will be
+                                distracted by the
+                                readable content of a page when looking at its layout</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <button ype="button" class="btn text-white btn-danger btn-lg mt-3 ms-5" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Register Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Warning ,Please first register </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal section started -->
+        <!-- frequent asked Quetion started  -->
+        <section class="container mt-5">
+            <div class="mt-2">
+                <div class="text-center">
+                    <h1>Frequently Asked Questions</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable <br> content of a
+                        page when looking at its layout.
+
+                    </p>
+                    <div class="accordion accordion-flush" id="quetion">
+                        <!-- First quetion  -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header border" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#quetion-1">
+                                    What are the different betweem flexbox and grid?
+                                </button>
+                            </h2>
+                            <div id="quetion-1" class="accordion-collapse collapse" data-bs-parent="#quetion">
+                                <div class="accordion-body"> Flexbox and CSS Grid are two CSS layout modules that have
+                                    become mainstream in recent years. When to use which, is another question however.
+                                    Both allow us to create complex layouts that were previously only possible by
+                                    applying CSS hacks and/or JavaScript. Flexbox and CSS Grid share multiple
+                                    similarities and many layouts can be solved with both. Let's see if we can clarify
+                                    when you should use Flexbox and when you should use CSS Grid.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second quetion -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header border" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#quetion-2">
+                                    What are the different bootsrtap and tailwind?
+                                </button>
+                            </h2>
+                            <div id="quetion-2" class="accordion-collapse collapse" data-bs-parent="#quetion">
+                                <div class="accordion-body"> Bootstrap's utility and layout classes provide you with
+                                    everything you need to style a responsive webpage. With Tailwind, however, you are
+                                    much more involved in styling the webpage because you end up having to create your
+                                    own components using the utility classes that the framework offers.</div>
+                            </div>
+                        </div>
+                        <!-- third quetion -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header border" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#quetion-3">
+                                    What Css Box Model?
+
+                                </button>
+                            </h2>
+                            <div id="quetion-3" class="accordion-collapse collapse" data-bs-parent="#quetion">
+                                <div class="accordion-body"> The CSS box model is a container that contains multiple
+                                    properties including borders, margin, padding, and the content itself. It is used to
+                                    create the design and layout of web pages. It can be used as a toolkit for
+                                    customizing the layout of different elements. The web browser renders every element
+                                    as a rectangular box according to the CSS box model. Box-Model has multiple
+                                    properties in CSS</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header border" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#quetion-4">
+                                    What is semantic?
+
+                                </button>
+                            </h2>
+                            <div id="quetion-4" class="accordion-collapse collapse" data-bs-parent="#quetion">
+                                <div class="accordion-body"> Semantic HTML or semantic markup is HTML that introduces
+                                    meaning to the web page rather than just presentation. For example, a p tag
+                                    indicates that the enclosed text is a paragraph. This is both semantic and
+                                    presentational because people know what paragraphs are, and browsers know how to
+                                    display them.
+
+                                    On the flip side of this equation, tags such as b and i are not semantic.
+                                    They define only how the text should look (bold or italic).</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- frequent asked Quetion end  -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script>
 </body>
 
 </html>
